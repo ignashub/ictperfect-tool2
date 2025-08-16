@@ -744,7 +744,7 @@ export const Dashboard = ({ userData }: DashboardProps) => {
           <TabsList className="grid w-full grid-cols-6 bg-white/80 backdrop-blur-sm">
             <TabsTrigger value="dashboard">Dashboard</TabsTrigger>
             <TabsTrigger value="leads">Lead Management</TabsTrigger>
-            <TabsTrigger value="ai-engine">AI Engine</TabsTrigger>
+            {/* <TabsTrigger value="ai-engine">AI Engine</TabsTrigger>
             <TabsTrigger value="ai-agent" className="relative">
               AI Agent
               <span className="absolute -top-1 -right-1 w-2 h-2 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full animate-pulse"></span>
@@ -756,7 +756,7 @@ export const Dashboard = ({ userData }: DashboardProps) => {
                   {Math.min(outreachStats.emailLeads.length + outreachStats.linkedinLeads.length, 9)}
                 </span>
               )}
-            </TabsTrigger>
+            </TabsTrigger> */}
             <TabsTrigger value="profile">Profile</TabsTrigger>
           </TabsList>
 
